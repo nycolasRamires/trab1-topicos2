@@ -1,0 +1,20 @@
+# p e i baseado nos slides (xi = 1.0  e ts = 50ms)
+/my_controller:
+  ros__parameters:
+    joints:
+      - left_wheel_joint
+      - right_wheel_joint
+    left_wheel_joint:
+      p: 8464
+      i: 184
+      d: 0.0
+      i_max: 10.0
+      i_min: -10.0
+      antiwindup: true  
+    right_wheel_joint:
+      p: 8464
+      i: 184
+      d: 0.0
+      i_max: 10.0
+      i_min: -10.0
+      antiwindup: true

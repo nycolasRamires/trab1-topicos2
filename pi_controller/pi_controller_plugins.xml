@@ -1,0 +1,11 @@
+<library path="pi_controller">
+  <class name="effort_controllers/PiController"
+  	type="effort_controllers::PiController"
+	base_class_type="controller_interface::ControllerInterface">
+    <description>
+      Implementa um PI
+      ref = geometry_msgs/msg/Twist
+      out = geometry_msgs/msg/Accel
+    </description>
+  </class>
+</library>
